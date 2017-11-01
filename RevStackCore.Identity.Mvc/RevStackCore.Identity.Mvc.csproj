@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>RevStackCore.Identity.Mvc</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>S. Francis</Authors>
+    <Description>Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Net Standard 1.6 release</PackageReleaseNotes>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageTags>RevStackCore AspNetCore Identity Mvc</PackageTags>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RevStackCore.Identity.Mvc</RootNamespace>
+    <AssemblyName>RevStackCore.Identity.Mvc</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RevStackCore.Identity" Version="1.0.3" />
+    <PackageReference Include="RevStackCore.Net" Version="1.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="MessageService\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.Identity.Mvc",
+  "version": "1.0.0",
+  "description": "Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app",
+  "main": "RevStackCore.Identity.Mvc.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/Identity.Mvc.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+		"url": "https://github.com/RevStackCore/Identity.Mvc/issues"
+  },
+	"homepage": "https://github.com/RevStackCore/Identity.Mvc"
+}
