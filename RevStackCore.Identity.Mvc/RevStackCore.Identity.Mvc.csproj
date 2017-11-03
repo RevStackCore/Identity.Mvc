@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <PackageId>RevStackCore.Identity.Mvc</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -23,5 +23,6 @@
     <Folder Include="Extensions\" />
     <Folder Include="MessageService\" />
     <Folder Include="Model\" />
+    <Folder Include="Enum\" />
   </ItemGroup>
 </Project>
