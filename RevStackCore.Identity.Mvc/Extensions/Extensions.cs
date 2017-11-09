@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Security.Claims;
+using System.Text;
+using System.Linq;
+using Microsoft.AspNetCore.Http;
+
 namespace RevStackCore.Identity.Mvc
 {
     public static class Extensions
