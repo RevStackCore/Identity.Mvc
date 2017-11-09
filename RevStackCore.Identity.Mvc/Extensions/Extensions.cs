@@ -65,5 +65,20 @@ namespace RevStackCore.Identity.Mvc
 
 		}
 
+        public static string ToConfigNormalized(this string src, string replace, ConfigFilterType filterType)
+        {
+            string filter = "[Email]";
+            if (filterType == ConfigFilterType.LineBreak)
+            {
+                src = src.Replace(filter, replace);
+            }
+            else
+            {
+                filter = "[br]";
+                src = src.Replace(filter, replace);
+            }
+            return src;
+        }
+
     }
 }
