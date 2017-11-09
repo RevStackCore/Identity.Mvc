@@ -43,10 +43,4 @@ namespace RevStackCore.Identity.Mvc
         public EmailConfiguration Email { get; set; }
     }
 
-    public class JwtTokenConfiguration
-    {
-        public string Secret { get; set; }
-        public string Issuer { get; set; }
-        public string Audience { get; set; }
-    }
 }
