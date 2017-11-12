@@ -16,6 +16,7 @@ namespace RevStackCore.Identity.Mvc
         public DateTime Date { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
+        public string Link { get; set; }
         public NotifyMessage()
         {
             Id = Guid.NewGuid().ToString();

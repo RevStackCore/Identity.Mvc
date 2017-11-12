@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <PackageId>RevStackCore.Identity.Mvc</PackageId>
-    <PackageVersion>1.0.4</PackageVersion>
+    <PackageVersion>1.0.5</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -16,8 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RevStackCore.Identity" Version="1.0.3" />
     <PackageReference Include="RevStackCore.Net" Version="1.0.7" />
+    <PackageReference Include="RevStackCore.Identity" Version="1.0.9" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="RevStackCore.Extensions.Mvc" Version="1.0.7" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
