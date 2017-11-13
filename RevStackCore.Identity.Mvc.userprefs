@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Identity.Mvc/RevStackCore.Identity.Mvc.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Identity.Mvc/Model/NotifyMessage.cs">
     <Files>
       <File FileName="RevStackCore.Identity.Mvc/Model/NotifyMessage.cs" Line="19" Column="40" />
       <File FileName="RevStackCore.Identity.Mvc/Model/ProfileModel.cs" Line="3" Column="29" />
