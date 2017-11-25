@@ -1,7 +1,7 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Identity.Mvc/Model/NotifyMessage.cs">
     <Files>
-      <File FileName="RevStackCore.Identity.Mvc/Model/NotifyMessage.cs" Line="19" Column="40" />
+      <File FileName="RevStackCore.Identity.Mvc/Model/NotifyMessage.cs" Line="11" Column="5" />
       <File FileName="RevStackCore.Identity.Mvc/Model/ProfileModel.cs" Line="3" Column="29" />
       <File FileName="RevStackCore.Identity.Mvc/Model/ViewModels.cs" Line="6" Column="28" />
     </Files>
