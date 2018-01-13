@@ -9,9 +9,8 @@ namespace RevStackCore.Identity.Mvc
         public string From { get; set; }
     }
 
-    public class MessagingConfiguration
+    public class MessagingConfiguration : BaseMessagingConfiguration
     {
-        public EmailConfiguration Email { get; set; }
         public string Valediction { get; set; }
         public CompanyConfiguration Company { get; set; }
         public CssAttributesConfiguration CssAttributes { get; set; }
@@ -24,6 +23,7 @@ namespace RevStackCore.Identity.Mvc
         public string Phone { get; set; }
         public string LogoUrl { get; set; }
         public string From { get; set; }
+        public string To { get; set; }
     }
 
     public class CssAttributesConfiguration

@@ -23,4 +23,5 @@ namespace RevStackCore.Identity.Mvc
             Id = Guid.NewGuid().ToString();
         }
     }
+
 }
