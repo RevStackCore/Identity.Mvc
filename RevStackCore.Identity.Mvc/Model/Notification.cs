@@ -18,6 +18,7 @@
         public string CompanyPhone { get; set; }
         public string TrackingUrl { get; set; }
         public string Email { get; set; }
+        public string Valediction { get; set; }
     }
 
     public class TaskNotification : BaseNotification
