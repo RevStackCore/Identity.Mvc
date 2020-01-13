@@ -1,6 +1,6 @@
 {
   "name": "RevStackCore.Identity.Mvc",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app",
   "main": "RevStackCore.Identity.Mvc.sln",
   "scripts": {
