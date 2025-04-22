@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>RevStackCore.Identity.Mvc</PackageId>
-    <PackageVersion>2.2.1</PackageVersion>
+    <PackageVersion>3.0.0</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>Models, messaging services and extensions for a Microsoft.AspNetCore.Identity MVC web app</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -20,9 +20,9 @@
 
   <ItemGroup>
     <PackageReference Include="RevStackCore.Net" Version="1.0.8" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
-    <PackageReference Include="RevStackCore.Extensions.Mvc" Version="2.0.0" />
-    <PackageReference Include="RevStackCore.Identity" Version="2.2.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="RevStackCore.Extensions.Mvc" Version="3.0.0" />
+    <PackageReference Include="RevStackCore.Identity" Version="3.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
